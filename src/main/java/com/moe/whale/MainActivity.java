@@ -1,6 +1,7 @@
 package com.moe.whale;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -19,12 +20,11 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 /** 主界面：设置 + 开关 + 诊断 */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private LinearLayout col;
     private TextView statusView;
