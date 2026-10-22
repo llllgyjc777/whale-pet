@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小鲸</string>
+    <string name="a11y_desc">小鲸需要无障碍权限来读取屏幕文字、点击按钮，以及帮你自动刷视频。所有操作都会记录在日志里，可随时关闭。</string>
+</resources>
