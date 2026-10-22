@@ -283,7 +283,7 @@ public class PetService extends Service {
                     bubble.setText("出错了：" + err);
                     return;
                 }
-                Store.get(this).addMsg("assistant", full);
+                Store.get(PetService.this).addMsg("assistant", full);
                 if (Config.ttsOn(PetService.this)) {
                     whale.talk();
                     Voice.speak(PetService.this, full, null);
